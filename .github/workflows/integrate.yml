@@ -45,7 +45,7 @@ jobs:
               username: dev
               # key: ${{ secrets.PRODUCTION_KEY }}
               port: 22
-                script: |
+              script: |
                 cd /home/dev/codes/recipe-app-api
                 git reset --hard HEAD && git clean -f -d
                 git pull origin master
