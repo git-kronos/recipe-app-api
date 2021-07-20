@@ -147,3 +147,7 @@ MEDIA_ROOT = 'asset/media/'
 STATIC_ROOT = 'asset/static/'
 
 AUTH_USER_MODEL = 'core.User'
+
+REST_FRAMEWORK = {
+    'DEFAULT_SCHEMA_CLASS': 'rest_framework.schemas.coreapi.AutoSchema'
+}
